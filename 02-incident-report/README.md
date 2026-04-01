@@ -42,3 +42,42 @@ A DDoS attack exploited an **unconfigured firewall**, allowing a flood of ICMP p
 ---
 
 ## 📂 Repository Structure
+02-incident-report/
+│
+├── README.md
+├── scenario.md
+├── incident-report.md
+
+
+---
+
+## 📖 Scenario
+The full scenario can be found here:  
+➡️ [View Scenario](./scenario.md)
+
+---
+
+## 📊 Full Analysis
+Detailed incident analysis based on the NIST CSF:  
+➡️ [View Report](./incident-report.md)
+
+---
+
+## 🧩 Skills Demonstrated
+- Incident Analysis
+- Network Security
+- Threat Identification
+- NIST Cybersecurity Framework (CSF)
+- Security Controls Implementation
+- Technical Documentation
+
+---
+
+## 🚀 Author
+**Alejandro Cardona López**  
+Cybersecurity Analyst (Aspiring SOC Analyst)
+
+---
+
+## 📌 Notes
+This project highlights the importance of proactive security controls, monitoring, and incident response planning in defending against modern cyber threats.
