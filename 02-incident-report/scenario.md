@@ -1,91 +1,27 @@
-# 📖 Scenario – DDoS Attack (ICMP Flood)
+## **Scenario**
 
-## 🧩 Background
+**![][image1]**
 
-You are a cybersecurity analyst working for a multimedia company that offers:
-- Web design services  
-- Graphic design  
-- Social media marketing solutions  
+You are a cybersecurity analyst working for a multimedia company that offers web design services, graphic design, and social media marketing solutions to small businesses. Your organization recently experienced a DDoS attack, which compromised the internal network for two hours until it was resolved.
 
-The company primarily serves small businesses.
+During the attack, your organization’s network services suddenly stopped responding due to an incoming flood of ICMP packets. Normal internal network traffic could not access any network resources. The incident management team responded by blocking incoming ICMP packets, stopping all non-critical network services offline, and restoring critical network services. 
 
----
+The company’s cybersecurity team then investigated the security event. They found that a malicious actor had sent a flood of ICMP pings into the company’s network through an unconfigured firewall. This vulnerability allowed the malicious attacker to overwhelm the company’s network through a distributed denial of service (DDoS) attack. 
 
-## ⚠️ Incident Description
+To address this security event, the network security team implemented: 
 
-Your organization recently experienced a **Distributed Denial of Service (DDoS) attack**, which compromised the internal network for approximately **two hours**.
+* A new firewall rule to limit the rate of incoming ICMP packets  
+* Source IP address verification on the firewall to check for spoofed IP addresses on incoming ICMP packets  
+* Network monitoring software to detect abnormal traffic patterns  
+* An IDS/IPS system to filter out some ICMP traffic based on suspicious characteristics
 
-During the attack:
-- Network services suddenly stopped responding  
-- A large volume of **ICMP packets** flooded the network  
-- Internal users were unable to access network resources  
+As a cybersecurity analyst, you are tasked with using this security event to create a plan to improve your company’s network security, following the National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF). You will use the CSF to help you navigate through the different steps of analyzing this cybersecurity event and integrate your analysis into a general security strategy. We have broken the analysis into different parts in the template below. You can explore them here:
 
----
+* **Identify** security risks through regular audits of internal networks, systems, devices, and access privileges to identify potential gaps in security.   
+* **Protect** internal assets through the implementation of policies, procedures, training and tools that help mitigate cybersecurity threats.   
+* **Detect** potential security incidents and improve monitoring capabilities to increase the speed and efficiency of detections.   
+* **Respond** to contain, neutralize, and analyze security incidents; implement improvements to the security process. 
 
-## 🚨 Initial Response
+**Recover** affected systems to normal operation and restore systems data and/or assets that have been affected by an incident.
 
-The incident management team took immediate action by:
-
-- Blocking incoming ICMP packets  
-- Taking non-critical network services offline  
-- Restoring critical services as quickly as possible  
-
----
-
-## 🔍 Investigation Findings
-
-After analyzing the incident, the cybersecurity team discovered:
-
-- A malicious actor launched an **ICMP flood attack**
-- The attack entered through an **unconfigured firewall**
-- The firewall vulnerability allowed unrestricted ICMP traffic
-- This enabled the attacker to overwhelm the network
-
----
-
-## 🛠️ Security Improvements Implemented
-
-To prevent similar incidents, the organization implemented:
-
-- Firewall rule to **limit ICMP traffic rate**
-- **Source IP verification** to detect spoofed IP addresses
-- Deployment of **network monitoring tools**
-- Implementation of an **IDS/IPS system** to filter suspicious traffic
-
----
-
-## 🎯 Your Task
-
-As a cybersecurity analyst, you are required to:
-
-Develop a security improvement plan based on the **NIST Cybersecurity Framework (CSF)**, covering the following core functions:
-
-### 1. Identify
-- Assess risks in systems, networks, and configurations  
-- Detect vulnerabilities and security gaps  
-
-### 2. Protect
-- Implement safeguards to prevent future attacks  
-- Apply policies, tools, and training  
-
-### 3. Detect
-- Improve monitoring and detection capabilities  
-- Identify anomalies and potential threats early  
-
-### 4. Respond
-- Contain and mitigate active incidents  
-- Improve incident response procedures  
-
-### 5. Recover
-- Restore systems and services  
-- Strengthen recovery strategies and resilience  
-
----
-
-## 📌 Objective
-
-Use this scenario to:
-- Analyze the root cause of the attack  
-- Identify security weaknesses  
-- Propose improvements aligned with industry standards  
-- Strengthen the organization's overall security posture  
+[image1]: <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAloAAAADCAYAAABLRaH8AAAAMklEQVR4Xu3WNwEAIAwAsJ44wL8FhrTexUT5csRDIs+ovBMAgGYhWgAAf0SuqNwAAHR7ryUss2bSjXwAAAAASUVORK5CYII=>

@@ -1,0 +1,15 @@
+
+
+| Summary | A distributed Denial of Service(DDoS) attack targeted our organization’s internal network, causing a two-hour service outage. The attack involved a massive flood of ICMP packets entering the network through an unconfigured firewall, disrupting access to internal systems and networks services. Prompt response actions restored critical services and exposed the need for stronger protective measures. |  |  |
+| :---- | :---- | ----- | ----- |
+| Identify | **Type of Attack: DDoS(Distributed Denial of Service) using ICMP flood** Systems Impacted: Internal network services Communication between internal hosts Firewall vulnerability exploited **Risk Discovered:** An unrestricted firewall configuration allowed unsolicited ICMP traffic, creating a gap that enabled the attack. |  |  |
+| Protect | To protect the organization from similar incidents in the future, the cybersecurity team implemented several key controls. Firewall rules were updated to limit the rate of incoming ICMP traffic, and source IP address verification was enabled to identify and reject spoofed requests. An intrusion detection and prevention system (IDS / IPS) was deployed to filter suspicious ICMP patterns, and continuous network monitoring tools were installed to track unusual traffic behavior. These measures were accompanied by updated security policies and internal staff training to reinforce preventive practices. |  |  |
+| Detect | The detection efforts were strengthened through the use of real-time monitoring software and behavior-based alerting mechanisms. The organization now relies on IDS/IPS analytics and anomaly detection to flag any unexpected spikes in traffic or unauthorized protocol use. Regular internal audits and scheduled vulnerability scans further support the early identification of potential threats before they escalate. |  |  |
+| Respond | In response to the incident, the organization followed a structured approach: isolating affected services, applying targeted firewall restrictions, and gradually restoring system functionality. The incident response plan was updated to include procedures for handling ICMP floods and similar volumetric attacks. Moving forward, this plan ensures swift containment, communication with stakeholders, and comprehensive post-incident reviews to improve resilience. |  |  |
+| Recover | Recovery efforts focused on restoring full service availability, validating system integrity, and reinforcing configuration security. A follow-up assessment ensured that all implemented changes were effective. To enhance long-term recovery readiness, the organization has committed to regular backup testing, disaster recovery drills, and the integration of cloud-based redundancy for essential services. |  |  |
+
+---
+
+| Reflections/Notes: This incident highlighted the importance of proactive defense, visibility and readiness. By addressing the root cause and reinforcing all five core functions of the NIST Cybersecurity Framework-indentify, protect, detect, respond and recover- the organization is now better positioned to defend against and recover from future cyber threats. |
+| :---- |
+
