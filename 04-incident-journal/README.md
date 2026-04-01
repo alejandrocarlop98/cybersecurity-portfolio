@@ -35,7 +35,7 @@ Detailed description of the incident scenario:
 
 ## Incident Journal
 Full incident documentation and analysis:  
-➡️ [View Journal](./incident-journal.md)
+➡️ [View Journal](./Incident%20handler's%20journal%20completed.md)
 
 ---
 
