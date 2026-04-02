@@ -7,7 +7,7 @@ This project focused on using SQL queries to apply filters for two main purposes
 A potential incident occurred outside of business hours, and I needed to find all failed login attempts after 18:00.  
 The following query selects all records where the *login\_time* is later than 18:00 and the *success* field equals FALSE)failed attempt). This output helps pinpoint unauthorized or suspicious login activity during off-hours.
 
-![After hours failed login](./screenshots/after-hours-failed-login.png)
+![After hours failed login](./screenshots/01-after-hours-failed-login.png)
 
 ## **Retrieve login attempts on specific dates**
 
