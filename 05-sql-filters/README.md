@@ -111,6 +111,6 @@ This project demonstrates how SQL filtering can directly support security operat
 
 | File | Description |
 |---|---|
-| `scenario.md` | Full scenario context and investigation background |
-| `screenshots/` | Query outputs for each of the 6 scenarios |
-| `apply-filters-to-sql-queries.md` | Original project document |
+|  [`scenario.md`](./scenario.md) | Full scenario context and investigation background |
+|  [`screenshots/`](./screenshots/) | Query outputs for each of the 6 scenarios |
+| `apply-filters-to-sql-queries.md`](./apply-filters-to-sql-queries.md) | Original project document |
