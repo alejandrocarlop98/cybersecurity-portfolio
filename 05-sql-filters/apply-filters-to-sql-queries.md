@@ -13,7 +13,7 @@ The following query selects all records where the *login\_time* is later than 18
 
 I examined login data for both the date of the suspected activity and the preceding day to identify related events.
 
-(./screenshots/02-login-specific-dates.png)
+![Login attempts on specific dates](./screenshots/02-login-specific-dates.png)
 
 Using the *AND* operator returns all login attempts from both of the two specified dates, enabling comparison between days for repeated patterns. Adding *ORDER BY login\_date , login\_time* sorts the output first by date and then by time, ensuring that events are reviewed in chronological order- an important step when reconstructing incident timelines.
 
