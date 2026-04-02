@@ -21,7 +21,7 @@ Using the *AND* operator returns all login attempts from both of the two specifi
 
 Some investigations require filtering out normal, expected traffic. Since the majority of logins from Mexico were legitimate, I excluded them.
 
-![][image3]
+![Login attempts outside of Mexico](./screenshots/03-login-outside-mexico.png)
 
 With the *NOT LIKE ‘MEX%’* i was able to remove results where the country starts with *MEX*, covering both the abbreviation *MEX* and the full name *MEXICO*.
 
@@ -29,7 +29,7 @@ With the *NOT LIKE ‘MEX%’* i was able to remove results where the country st
 
 For targeted software updates, only Marketing employees located in the East building needed to be included.
 
-![][image4]
+![Employees in Marketing](./screenshots/04-employees-marketing.png)
 
 The *AND* operator ensures both conditions are met-department must be Marketing, and the office must begin with “East” (capturing East-170,East-267,etc).
 
@@ -37,7 +37,7 @@ The *AND* operator ensures both conditions are met-department must be Marketing,
 
 Certain updates applied to both Finance and Sales departments.
 
-![][image5]
+![Employees in Finance or Sales](./screenshots/05-employees-finance-sales.png)
 
 The *OR* operator returns employees in either department.
 
@@ -45,7 +45,7 @@ The *OR* operator returns employees in either department.
 
 Some updates were not relevant to the IT department and should be excluded.
 
-![][image6]
+![Employees not in IT](./screenshots/06-employees-not-it.png)
 
 Using the operator NOT excludes IT department staff from the results, ensuring updates reach only applicable users.
 
