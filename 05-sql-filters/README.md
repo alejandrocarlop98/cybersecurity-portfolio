@@ -1,4 +1,4 @@
-# 🗃️ Apply Filters to SQL Queries
+# Apply Filters to SQL Queries
 
 ## Overview
 
@@ -113,4 +113,4 @@ This project demonstrates how SQL filtering can directly support security operat
 |---|---|
 | `scenario.md` | Full scenario context and investigation background |
 | `screenshots/` | Query outputs for each of the 6 scenarios |
-| `docs/apply-filters-to-sql-queries.docx` | Original project document |
+| `apply-filters-to-sql-queries.md` | Original project document |
