@@ -138,4 +138,4 @@ This project reinforced the ability to interpret Linux permission strings, manag
 |---|---|
 | [`scenario.md`](./scenario.md) | Full scenario context and task background |
 | [`screenshots/`](./screenshots/) | Terminal output captures for each task |
-| [`document/file-permissions-in-linux.docx`](./document/) | Original project document |
+| [`document/File permissions in Linux.docx`](./06-linux-permissions/document/File permissions in Linux.docx) | Original project document |
