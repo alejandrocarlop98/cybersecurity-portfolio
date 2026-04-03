@@ -144,4 +144,4 @@ By automating this critical access-control task, the algorithm reduces human err
 | [`scenario.md`](./scenario.md) | Full scenario context and security relevance |
 | [`update_allow_list.py`](./update_allow_list.py) | Python source code for the algorithm |
 | [`screenshots/`](./screenshots/) | Terminal and code output captures for each phase |
-| [`docs/](./docs/) | Original project write-up |
+| [`docs/`](./docs/) | Original project write-up |
