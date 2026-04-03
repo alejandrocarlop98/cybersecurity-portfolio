@@ -1,7 +1,7 @@
 # update_allow_list.py
 #
 # Security Automation — IP Allow List Manager
-# Author: Alejandro Carlo
+# Author: Alejandrocarlop98
 #
 # Description:
 #   This algorithm automates the maintenance of an IP allow list for a
