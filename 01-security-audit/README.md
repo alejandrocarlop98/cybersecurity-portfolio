@@ -69,7 +69,7 @@ The IT manager requested an internal security audit to assess the company's curr
 
 ## Compliance Checklist
 
-### 💳 PCI DSS
+###  PCI DSS
 
 | Best Practice | Status | Notes |
 |---|---|---|
@@ -78,7 +78,7 @@ The IT manager requested an internal security audit to assess the company's curr
 | Data encryption implemented | ❌ | Not in use |
 | Secure password management policies | ❌ | Weak policy, no enforcement |
 
-### 🇪🇺 GDPR
+###  GDPR
 
 | Best Practice | Status | Notes |
 |---|---|---|
@@ -87,7 +87,7 @@ The IT manager requested an internal security audit to assess the company's curr
 | Data properly classified and inventoried | ❌ | Assets listed but not classified |
 | Privacy policies enforced | ✅ | Policies in place across departments |
 
-### 🏢 SOC Type 1 & 2
+###  SOC Type 1 & 2
 
 | Best Practice | Status | Notes |
 |---|---|---|
