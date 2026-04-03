@@ -131,4 +131,4 @@ Based on the audit findings, the following immediate actions are recommended:
 |---|---|
 | [`docs/botium-toys-scope-goals-risk-assessment.md`](./docs/Botium-Toys-Scope-goals-and-risk-assessment-report.md) | Full scope, asset inventory, and risk assessment report |
 | [`docs/controls-and-compliance-checklist.md`](./docs//Control-categories.md) | Completed controls and compliance checklist with findings |
-| `docs/control-categories.docx` | Reference document: control categories and types |
+| [`docs/control-categories.md`](./docs/Controls-and-compliance-checklist.md) | Reference document: control categories and types |
