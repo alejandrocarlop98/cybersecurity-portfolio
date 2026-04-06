@@ -114,3 +114,4 @@ This project demonstrates how SQL filtering can directly support security operat
 |  [`scenario.md`](./scenario.md) | Full scenario context and investigation background |
 |  [`screenshots/`](./screenshots/) | Query outputs for each of the 6 scenarios |
 | [`apply-filters-to-sql-queries.md`](./apply-filters-to-sql-queries.md) | Original project document |
+| [`sql_filters_cybersecurity.sql`](./sql_filters_cybersecurity.sql) | Fully commented SQL file with all 6 investigative queries using AND, OR, NOT, and LIKE operators |
